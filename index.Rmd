@@ -1,0 +1,52 @@
+---
+title: "Data Science with R"
+image: "img/DS.jpeg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::trestles
+site: distill::distill_website  
+---
+ 
+
+## Welcome! `r emo::ji("slightly_smiling_face")``r emo::ji("slightly_smiling_face")`
+
+**R** is a programming language for [statistical computing](https://en.wikipedia.org/wiki/Computational_statistics) and graphics supported by the R Core Team and the R Foundation for Statistical Computing. Created by statisticians [Ross Ihaka](https://en.wikipedia.org/wiki/Ross_Ihaka) and [Robert Gentleman](https://en.wikipedia.org/wiki/Robert_Gentleman_(statistician)), R is used among [data miners](https://en.wikipedia.org/wiki/Data_mining), [bioinformaticians](https://en.wikipedia.org/wiki/Bioinformatics) and [statisticians](https://en.wikipedia.org/wiki/Statistician) for [data analysis](https://en.wikipedia.org/wiki/Data_analysis) and developing [statistical software](https://en.wikipedia.org/wiki/List_of_statistical_software).Users have created packages to augment the functions of the R language
+
+
+## [Resources](https://r4ds.had.co.nz/index.html) `r emo::ji("books")`
+
+### Installing R and RStudio
+ 
+R is maintained by an international team of developers who make the language available through the web page of [The Comprehensive R Archive Network](https://cran.r-project.org/). The top of the web page provides three links for downloading R. Follow the link that describes your operating system: Windows, Mac, or Linux.
+
+- [**Windows**](https://cran.r-project.org/) click the “base” link. Next, click the first link at the top of the page. This link should say something like “Download R 3.0.3 for Windows,” except the 3.0.3 will be replaced by the most current version of R. The link downloads an installer program, which installs the most up-to-date version of R for Windows.
+- [**Mac**](https://cran.r-project.org/) click on the R-3.0.3 package link (or the package link for the most current release of R). An installer will download to guide you through the installation process, which is very easy. 
+- [**Linux**](https://cran.r-project.org/) then follow the directory trail to the version of Linux you wish to install on. The exact installation procedure will vary depending on the Linux system you use. CRAN guides the process by grouping each set of source files with documentation or README files that explain how to install on your system.
+
+
+### What you will learn
+
+Typical data science project looks something like this
+
+```{r echo=FALSE, fig.align = "center"}
+knitr::include_graphics("img/data-science.png")
+```
+
+- First you must **import** your data into R. This typically means that you take data stored in a file, database, or web application programming interface (API), and load it into a data frame in R. 
+- Once you’ve imported your datal
+  - **Tidy**
+  - **Transform**
+  - **Visualisation**
+  - **Models** 
+  - **Communication**
+
+## RStudio + GitHub
+- [Happy git and GitHub for the R useR](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, Jim Hester

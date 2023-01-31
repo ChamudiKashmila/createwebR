@@ -1,0 +1,16 @@
+name: "Chamudi-Kashmila"
+title: "Building Websites in RStudi_chamudi"
+description: |
+  Building Websites in RStudiooo
+output_dir: "docs"
+theme: my-theme1.css
+navbar:
+  right:
+    - text: "Home"
+      href: home.html
+    - text: "About"
+      href: about.html
+    - text: "Example article"
+      href: example-rmarkdown.html
+      
+output: distill::distill_article
